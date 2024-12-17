@@ -1,2 +1,0 @@
-# haisaz
- web scaffolding
