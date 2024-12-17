@@ -25,8 +25,8 @@ import p13 from '@site/static/img/p13.png';
 import p14 from '@site/static/img/p14.png';
 import p15 from '@site/static/img/p15.png';
 import p2 from '@site/static/img/p16.png';
-
-
+import msca from '@site/static/img/msca.png';
+import epsrc from '@site/static/img/epsrc.png';
 
 const FeatureList = [
   {
@@ -157,7 +157,7 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-    <div className="container">
+    <div className="container" style={{marginLeft:"auto",marginRight:"auto"}}>
       <Heading as="h1" className="hero__title">
         {siteConfig.title}
       </Heading>
@@ -165,10 +165,19 @@ function HomepageHeader() {
       <div className={styles.buttons}>
         <Link
           className="button button--secondary button--lg"
-          to="/docs/intro">
-          Docusaurus Tutorial - 5min ⏱️
+          to="https://cordis.europa.eu/project/id/101131117">
+          Funded by Horizon EU, MSCA Programme and UKRI EPSRC.
         </Link>
+  
       </div>
+      <div style={{width:"30vw",marginLeft:"auto",marginRight:"auto",paddingTop:"25px"}}>
+      <Card shadow='tl' >
+      <CardBody >
+    <img src={msca} style={{width:"200px",paddingLeft:"25px"}} ></img>
+    <></>
+    <img src={epsrc} style={{width:"200px",paddingLeft:"25px"}} ></img>
+    </CardBody></Card>
+</div>
 
     </div>
   </header>

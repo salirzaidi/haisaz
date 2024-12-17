@@ -1,12 +1,12 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+sazaidi:
+  name: Syed A. R. Zaidi
+  title: Associate Professor@ UoL
+  url: https://github.com/salirzaidi
+  image_url: https://avatars.githubusercontent.com/u/35870998
   page: true
   socials:
-    x: yangshunz
-    github: yangshun
+    x: alirxaidi
+    github: salirzaidi
 
 slorber:
   name: Sébastien Lorber

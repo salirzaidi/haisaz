@@ -20,13 +20,13 @@
 
 nav.navbar{  
   --ifm-navbar-background-color: var(--ifm-background-surface-color);
-  --ifm-navbar-height: 150px;
+  --ifm-navbar-height: 20vh;
   --ifm-navbar-link-hover-color: #1bb551;
  }
 
 .navbar__logo img {
-  height: 260%;
-  margin-top: -10px;
+  height: 400%;
+  margin-top: -50px;
 }
 
 
