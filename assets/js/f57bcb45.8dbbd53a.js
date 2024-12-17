@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhaisaz=self.webpackChunkhaisaz||[]).push([[453],{338:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/haisaz/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhaisaz=self.webpackChunkhaisaz||[]).push([[903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/haisaz/blog","blogTitle":"Blog","authorsListPath":"/haisaz/blog/authors"}')}}]);

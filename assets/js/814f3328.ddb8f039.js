@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhaisaz=self.webpackChunkhaisaz||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Explainable AI in Healthcare","permalink":"/haisaz/blog/Explainable AI in Healthcare","unlisted":false,"date":"2024-12-17T00:00:00.000Z"}]}')}}]);

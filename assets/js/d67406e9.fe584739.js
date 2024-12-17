@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhaisaz=self.webpackChunkhaisaz||[]).push([[16],{2574:a=>{a.exports=JSON.parse('{"tags":[{"label":"healthml","permalink":"/haisaz/blog/tags/healthml","count":1},{"label":"xai","permalink":"/haisaz/blog/tags/xai","count":1}]}')}}]);
