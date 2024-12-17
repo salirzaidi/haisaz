@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Harmonic AI',
   tagline: 'Human-guided collAboRative Multi-Objective design of explaiNable, faIr and privaCy-preserving AI for digital health',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
