@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Harmonic AI Blog</title>
-        <link>https://salirzaidi.github.io/blog</link>
+        <link>https://your-docusaurus-site.example.com/blog</link>
         <description>Harmonic AI Blog</description>
         <lastBuildDate>Tue, 17 Dec 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,11 +10,11 @@
         <language>en</language>
         <item>
             <title><![CDATA[Explainable AI in Healthcare]]></title>
-            <link>https://salirzaidi.github.io/blog/Explainable AI in Healthcare</link>
-            <guid>https://salirzaidi.github.io/blog/Explainable AI in Healthcare</guid>
+            <link>https://your-docusaurus-site.example.com/blog/Explainable AI in Healthcare</link>
+            <guid>https://your-docusaurus-site.example.com/blog/Explainable AI in Healthcare</guid>
             <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Shedding Light on AI: The Importance of Explainable AI in Healthcare]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="shedding-light-on-ai-the-importance-of-explainable-ai-in-healthcare">Shedding Light on AI: The Importance of Explainable AI in Healthcare<a href="https://salirzaidi.github.io/blog/Explainable%20AI%20in%20Healthcare#shedding-light-on-ai-the-importance-of-explainable-ai-in-healthcare" class="hash-link" aria-label="Direct link to Shedding Light on AI: The Importance of Explainable AI in Healthcare" title="Direct link to Shedding Light on AI: The Importance of Explainable AI in Healthcare">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="shedding-light-on-ai-the-importance-of-explainable-ai-in-healthcare">Shedding Light on AI: The Importance of Explainable AI in Healthcare<a href="https://your-docusaurus-site.example.com/blog/Explainable%20AI%20in%20Healthcare#shedding-light-on-ai-the-importance-of-explainable-ai-in-healthcare" class="hash-link" aria-label="Direct link to Shedding Light on AI: The Importance of Explainable AI in Healthcare" title="Direct link to Shedding Light on AI: The Importance of Explainable AI in Healthcare">​</a></h2>
 <p>Artificial intelligence (AI) is rapidly transforming numerous industries, and healthcare is no exception. From diagnosing diseases to personalizing treatments, AI has the potential to revolutionize patient care. However, the complexity of many AI models, often referred to as "black boxes," raises concerns about trust and transparency. This is where explainable AI (XAI) comes into play.</p>
 <p><strong>What is Explainable AI?</strong></p>
 <p>Explainable AI aims to make AI decision-making processes more transparent and understandable to humans. In essence, it's about opening the "black box" and providing insights into how an AI model arrives at a specific conclusion. This is particularly crucial in healthcare, where decisions can have life-altering consequences.</p>
