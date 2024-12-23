@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://harmonicai-project.uevora.pt/blog"/>
     <subtitle>Harmonic AI Blog</subtitle>
-    <icon>https://harmonicai-project.uevora.pt/img/favicon.png</icon>
+    <icon>https://harmonicai-project.uevora.pt/img/logo.png</icon>
     <entry>
         <title type="html"><![CDATA[Explainable AI in Healthcare]]></title>
         <id>https://harmonicai-project.uevora.pt/blog/Explainable AI in Healthcare</id>
