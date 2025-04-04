@@ -6,48 +6,117 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #0040ac;
+  --ifm-color-primary: #9fc4fc;
   --ifm-color-primary-dark: #3a2d79;
   --ifm-color-primary-darker: #362b72;
   --ifm-color-primary-darkest: #2d235e;
   --ifm-color-primary-light: #463793;
   --ifm-color-primary-lighter: #4a399a;
   --ifm-color-primary-lightest: #5341ae;
-  --ifm-font-family-base: "Segoe UI";
-  --ifm-font-family-base: 'Calibri', Arial, sans-serif;
+  --ifm-font-family-base: 'Lato', sans-serif;
+  --ifm-footer-background-color: #9fc4fc;
   
 }
 
 h1, h2, h3, h4, h5, h6, p, span, li, a, button {
-  font-family: 'Calibri', Arial, sans-serif; 
+  font-family: 'Lato', sans-serif;
 }
 
 .navbar, .footer, .sidebar {
-  font-family: 'Calibri', Arial, sans-serif; 
+  font-family: 'Lato', sans-serif;
 }
 
 
 nav.navbar{  
   --ifm-navbar-background-color: var(--ifm-background-surface-color);
-  --ifm-navbar-height: 20vh;
-  --ifm-navbar-link-hover-color: #1bb551;
+  --ifm-navbar-height: 16vh;
+  --ifm-navbar-link-hover-color: #9fc4fc;
+
  }
 
 .navbar__logo img {
-  height: 400%;
-  margin-top: -50px;
+  height: 350%;
+  margin-top: -44px;
 }
 
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+.row {
+  justify-content: flex-start !important; /* Alinha o conteúdo à esquerda */
+}
+
+ul {
+	display: none;
+}
+
+/* Esconde as linhas e células da tabela */
+table {
+    border: none;
+    background-color: transparent; /* Torna o fundo invisível */
+    border-collapse: collapse;
+    width: 100%;
+	display: block;
+}
+
+.col col--2{
+	display: none;
+}
+
+/* Esconde os cabeçalhos da tabela */
+table th {
+    display: none;
+}
+
+table td{
+    border: none;
+    background-color: transparent; /* Torna o fundo invisível */
+    padding: 20px; /* Mais espaçamento entre as células */
+	text-align: center;
+	vertical-align: middle;
+    color: black; /* Garante que o texto seja visível */
+}
+
+table td a{
+    border: none;
+    background-color: transparent; /* Torna o fundo invisível */
+    padding: 20px; /* Mais espaçamento entre as células */
+	text-align: center;
+	vertical-align: middle;
+    color: black; /* Garante que o texto seja visível */
+	visibility: visible;
+}
+
+table td div{
+	text-align: center;
+	visibility: visible;
+}
+
+/* Reduz o tamanho dos logos */
+table img {
+    max-width: 150px; /* Ajuste conforme necessário */
+    max-height: 150px; /* Ajuste conforme necessário */
+    display: block;
+    margin: 0 auto; /* Centraliza os logos */
+}
+
+.footer__copyright{
+	color: white;
+}
+
+/* Opcional: Esconde completamente as linhas da tabela */
+table, table tr, table th {
+	margin: 0 auto;
+    text-align: center;
+    visibility: hidden;
+}
+
+/* Apenas os logos ficam visíveis */
+table img {
+    visibility: visible;
+}
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #3a9600;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
 

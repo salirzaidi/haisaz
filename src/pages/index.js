@@ -162,22 +162,6 @@ function HomepageHeader() {
         {siteConfig.title}
       </Heading>
       <p className="hero__subtitle">{siteConfig.tagline}</p>
-      <div className={styles.buttons}>
-        <Link
-          className="button button--secondary button--lg"
-          to="https://cordis.europa.eu/project/id/101131117">
-          Funded by Horizon EU, MSCA Programme and UKRI EPSRC.
-        </Link>
-  
-      </div>
-      <div style={{width:"30vw",marginLeft:"auto",marginRight:"auto",paddingTop:"25px"}}>
-      <Card shadow='tl' >
-      <CardBody >
-    <img src={msca} style={{width:"200px",paddingLeft:"25px"}} ></img>
-    <></>
-    <img src={epsrc} style={{width:"200px",paddingLeft:"25px"}} ></img>
-    </CardBody></Card>
-</div>
 
     </div>
   </header>
@@ -188,46 +172,43 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+	sidebar={false}
+      title={`Home`}
+      description="HarmonicAI">
       <HomepageHeader />
       <main>
-        <div style={{"width":"70vw", "marginLeft":"auto","marginRight":"auto", "marginTop":"10px"}}>
-      <Card shadow='tl'>
-    <CardHeader>
-      <h3>Motivation</h3>
-    </CardHeader>
-    <CardBody>
-    The ambitious vision of HarmonicAI is to build a human-machine collaborative multi-objective design framework to foster coherently explainable, fair and privacy-preserving AI for digital health. The framework will provide concrete technical and operational guidelines for AI practitioners to design human-centred, domain-specific, requirement-oriented trustworthy AI solutions, accelerating the scalable deployment of AI-powered digital health services and offering assurance to the public that AI in digital health is being developed and used in an ethical and trustworthy manner. The scope of HarmonicAI is multifaceted and multidimensional. An interdisciplinary and intersectoral approach is essential to address the various challenges of trustworthy AI. HarmonicAI draws together proven experts in AI, health care, IoT, data science, privacy, cyber security, software engineering, HCI and industrial design with an underlying common aim to design and develop innovative technologies and guidelines to resolve ethical issues with respect to fairness and data privacy, achieve transparency of AI models, and enhance safety and trust in the deployment of AI for digital health. Realising these complex goals demands a collective interdisciplinary, intersectoral, cross-border effort from a diverse variety of stakeholders including academia, industries and healthcare providers.
-    </CardBody>
-
-  </Card>
-  </div>
-  <div style={{"width":"70vw", "marginLeft":"auto","marginRight":"auto", "marginTop":"10px","alignItems":"center"}}> 
-   <h1 style={{textAlign:"center"}}>Objectives </h1>
-   </div>
+        <div
+          style={{
+            "width": "70vw",
+            "marginLeft": "auto",
+            "marginRight": "auto",
+            "marginTop": "30px",
+            "lineHeight": "2",
+            "padding": "0 20px", // Adicionando margem interna (padding) direita e esquerda
+            "paddingBottom": "50px",
+          }}
+        >
+          <h1
+            style={{
+              "textAlign": "left",
+              "marginBottom": "20px",
+            }}
+          >
+            Motivation
+          </h1>
+          <p>
+            The ambitious vision of HarmonicAI is to build a human-machine collaborative multi-objective design framework to foster coherently explainable, fair, and privacy-preserving AI for digital health. The framework will provide concrete technical and operational guidelines for AI practitioners to design human-centred, domain-specific, requirement-oriented trustworthy AI solutions, accelerating the scalable deployment of AI-powered digital health services and offering assurance to the public that AI in digital health is being developed and used in an ethical and trustworthy manner.
+          </p>
+          <p>
+            The scope of HarmonicAI is multifaceted and multidimensional. An interdisciplinary and intersectoral approach is essential to address the various challenges of trustworthy AI. HarmonicAI draws together proven experts in AI, health care, IoT, data science, privacy, cyber security, software engineering, HCI, and industrial design with an underlying common aim to design and develop innovative technologies and guidelines to resolve ethical issues with respect to fairness and data privacy, achieve transparency of AI models, and enhance safety and trust in the deployment of AI for digital health.
+          </p>
+          <p>
+            Realising these complex goals demands a collective interdisciplinary, intersectoral, cross-border effort from a diverse variety of stakeholders including academia, industries, and healthcare providers.
+          </p>
+        </div>
       </main>
-      <h2 style={{textAlign:"center"}}>Research Objectives</h2>
-      <div className="row">
-       
-      {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-          </div>
-          <h2 style={{textAlign:"center", paddingTop:"10px",paddingBottom:"10px"}}>Knowledge Transfer Objectives</h2>
-          {FeatureList2.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-          <h1 style={{textAlign:"left"}}>Consortium </h1>
-          <div className="row">
-    
-           
-          {logos.map((idx,item) => (
-            <Logo key={idx} fileName={item} />
-          ))}
-
-
-          </div>
     </Layout>
   );
 }
+
+

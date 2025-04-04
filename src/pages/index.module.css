@@ -39,7 +39,7 @@ details {
   margin: 0 auto ;
   padding-left: 2em;
  
-  background: #25c2a0;
+  background: #b4e6ac;
   margin-bottom: .5rem;
   box-shadow: 0 .1rem 1rem -.5rem rgba(50, 6, 210, 0.4);
   border-radius: 5px;
@@ -51,7 +51,7 @@ details {
 summary {
   padding: 1rem;
   display: block;
-  background: #403286;
+  background: #8aa8e6;
   padding-left: 2.2rem;
   position: relative;
   cursor: pointer;

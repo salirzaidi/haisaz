@@ -12,10 +12,10 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Harmonic AI',
   tagline: 'Human-guided collAboRative Multi-Objective design of explaiNable, faIr and privaCy-preserving AI for digital health',
-  favicon: 'img/favicon.png',
+  favicon: 'img/logo.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://harmonicai-project.uevora.pt',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -73,36 +73,77 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+	docs: {
+      sidebar: {
+        hideable: true, // Permite esconder manualmente a sidebar
+      },
+    },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+	  siteMetadata: {
+		titleTemplate: '%s', // Apenas o título principal, sem os títulos de página
+	  },
+	  colorMode: {
+      disableSwitch: true, // Desativa o botão de troca de temas
+		},
       navbar: {
-        title: 'Harmonic AI',
+        title: 'Home',
         logo: {
           alt: 'Harmonic AI',
           src: 'img/logo.png',
-          height: 500
+          height: 300
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Project',
-          },
+          //{
+          //  type: 'docSidebar',
+          //  sidebarId: 'tutorialSidebar',
+          //  position: 'left',
+          //  label: 'Project',
+          //},
+		  {to:'/projects', label: 'Project', position: 'left'},
+		  {to:'/consortium', label: 'Consortium', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {to:'/publications', label: 'Publications', position: 'left'},
+		  {to:'/events_and_news', label: 'Events and News', position: 'left'},
           
           {
-            href: 'mailto:tcg@uevora.pt',
+            href: 'mailto:harmonicai-project@uevora.pt',
             label: 'Contact US',
             position: 'right',
           },
         ],
       },
       footer: {
-        style: 'dark',
-       
-        copyright: `Copyright © ${new Date().getFullYear()} HarmonicAI, Built with Docusaurus.`,
+      links: [
+        {
+          html: `
+            <div style="text-align: left; margin-bottom: 20px;">
+              <div style="margin-bottom: 15px;">
+               <a href="https://cordis.europa.eu/project/id/101131117" 
+				   class="button"
+				   style="
+					 text-decoration: none; 
+					 color: #fff; 
+					 background: transparent; 
+					 padding: 10px 15px; 
+					 border-radius: 5px; 
+					 font-size: 1.2em; /* Aumenta o tamanho da fonte */
+					 display: inline-block; /* Garante que o botão se comporta como bloco */
+				   ">
+				  Funded by Horizon EU, MSCA Programme and UKRI EPSRC.
+				</a>
+              </div>
+              <div style="background-color: #transparent; padding: 5px; border-radius: 10px; display: inline-block;">
+                <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+                  <img src="/img/epsrc.png" alt="EPSRC Logo" style="height: 115px;">
+                  <img src="/img/msca.png" alt="MSCA Logo" style="height: 50px;">
+                </div>
+              </div>
+            </div>
+          `,
+        },
+      ],
+        copyright: `Copyright © ${new Date().getFullYear()} HarmonicAI`,
       },
       prism: {
         theme: prismThemes.github,
